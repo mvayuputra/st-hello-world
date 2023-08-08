@@ -3,7 +3,7 @@ st.write("PRINCE EDUCATION")
 number = st.slider("Pick a number", 0, 100)
 st.write(number+5)
 with st.form("my_form"):
-  option = st.selectbox(
+    option = st.selectbox(
     'How would you like to be contacted?',
     ('Email', 'Home phone', 'Mobile phone'))
 
